@@ -19,7 +19,7 @@ Thumbs.db
 .idea/
 .vscode/
 
-/symfony-react.pem
+/ec2docker.pem
 
 
 # Ignorar la carpeta .terraform y archivos de estado de Terraform
