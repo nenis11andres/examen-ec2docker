@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Symfony / PHP
+/vendor/
+#.env
+#.env.local
+#.env.*.local
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+/symfony-react.pem
+
+
+# Ignorar la carpeta .terraform y archivos de estado de Terraform
+terraform/.terraform/
+terraform/terraform.tfstate.backup
+terraform/.terraform.lock.hcl
+# No ignores los archivos de configuración principales
+# (main.tf, variables.tf) sí deben estar en el repo
